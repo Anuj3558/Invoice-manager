@@ -9,10 +9,10 @@ import { GoogleAIFileManager } from "@google/generative-ai/server";
 const __dirname = "D:Swipeinvoice-backend";
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI("AIzaSyDkd5EeKWI7BZz9Fv2dFiSkEZGdqvhc5pk");
+const genAI = new GoogleGenerativeAI("AIzaSyAxqBScjTKmx8eQkLz5uxyotI1eF7Y-7FA");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 const fileManager = new GoogleAIFileManager(
-  "AIzaSyDkd5EeKWI7BZz9Fv2dFiSkEZGdqvhc5pk"
+  "AIzaSyAxqBScjTKmx8eQkLz5uxyotI1eF7Y-7FA"
 );
 
 // Enhanced multer storage configuration
